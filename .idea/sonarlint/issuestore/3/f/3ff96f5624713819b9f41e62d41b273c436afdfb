@@ -1,0 +1,8 @@
+
+r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(š²ø¬üÿÿÿÿ
+n
+java:S3457%"Q%n should be used in place of \n to produce the platform-specific line separator.(±ØâÄ8İÎæëº0
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(±ØâÄ8ç¹äëº0
+s
+java:S3457'"Q%n should be used in place of \n to produce the platform-specific line separator.(—¤Àúÿÿÿÿ8ÿáëº0
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(—¤Àúÿÿÿÿ8ŞÎæëº0
