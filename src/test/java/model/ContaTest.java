@@ -1,5 +1,6 @@
 package model;
 
+import caelum.model.Conta;
 import org.junit.Test;
 
 public class ContaTest {
