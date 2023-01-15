@@ -1,11 +1,19 @@
 package neliosudemy.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class Product {
 
-    public String name;
-    public double price;
-    public int quantity;
+    @Getter @Setter
+    private String name;
+    @Getter @Setter
+    private double price;
+    @Getter
+    private int quantity;
 
+    public Product() {
+    }
     public Product(String name, double price, int quantity){
         this.name = name;
         this.price = price;
@@ -17,7 +25,7 @@ public class Product {
         this.price = price;
     }
 
-    public static String COMMA = ", ";
+    public static final String COMMA = ", ";
 
     public double totalValueInStock(){
         return price * quantity;
@@ -42,6 +50,4 @@ public class Product {
                 + "Total: $ "
                 + String.format("%.2f", totalValueInStock());
     }
-
-
 }
