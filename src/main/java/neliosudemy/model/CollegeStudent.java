@@ -8,7 +8,6 @@ public class CollegeStudent {
 
     private String name;
     private String email;
-    private int room;
 
     public CollegeStudent(String name, String email) {
         this.name = name;

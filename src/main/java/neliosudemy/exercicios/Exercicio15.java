@@ -3,8 +3,6 @@ package neliosudemy.exercicios;
 
 import neliosudemy.model.CollegeStudent;
 
-import javax.swing.*;
-import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
 
