@@ -38,10 +38,11 @@ public class Exercicio14 {
 
         for (int i = 0; i < customers.length; i++){
             if(customers[i].getAge() < 16) {
-                System.out.println("Pessoas com menos de 16 anos: ");
-                System.out.println(customers[i].getName());
             }
+            double percent = customers.length * 100 / number;
+            System.out.println("Pessoas com menos de 16 anos: " + percent + "%");
+            System.out.println(customers[i].getName());
         }
-        
+
     }
 }
