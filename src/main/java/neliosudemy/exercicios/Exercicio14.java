@@ -42,5 +42,6 @@ public class Exercicio14 {
                 System.out.println(customers[i].getName());
             }
         }
+        
     }
 }
