@@ -10,6 +10,11 @@ public class Exercicio16 {
             System.out.println(vector[i]);
         }
         System.out.println("===============================");
+        /*
+        Tipo do meu objeto
+        Objeto
+        -> execução
+         */
         for (String str : vector) {
             System.out.println(str);
         }
